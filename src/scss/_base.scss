@@ -1,0 +1,44 @@
+$font-path: "http://cloudfront.startupmedia.com/gb/assets/fonts";
+@font-face {
+  font-family: 'ProximaNova-Light';
+  src: url("#{$font-path}/ProximaNova/ProximaNova-Light.otf") format('opentype');
+}
+@font-face {
+  font-family: 'ProximaNova-SemiBold';
+  src: url('#{$font-path}/ProximaNova/ProximaNova-Semibold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'ProximaNova-Bold';
+  src: url('#{$font-path}/ProximaNova/ProximaNova-Bold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Comfortaa-Regular';
+  src: url('#{$font-path}/Comfortaa/Comfortaa_Regular.ttf') format('truetype');
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'ProximaNova-Light';
+  color: $textColor;
+  line-height: 1.4;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.gbLogo {
+  font-family: 'Comfortaa-Regular';
+  letter-spacing: -0.5px;
+  color: $gb_darkBlue;
+  span {
+    color: $gb_lightGreen;
+    font-family: 'Comfortaa-Regular' !important;
+  }
+}
+
+sup {
+  font-size: 14px;
+}
