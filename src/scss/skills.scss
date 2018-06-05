@@ -1,0 +1,58 @@
+.skills {
+  & h2 {
+    color: $red;
+    margin: 0 0 40px 0;
+    @media screen and (max-width: 640px) {
+      margin: 0 0 20px 0;
+    }
+  }
+
+&__content {
+  position: relative;
+  max-width: 920px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  @media screen and (max-width: 640px) {
+    flex-direction: column;
+  }
+
+  & .skill {
+    position: relative;
+    width: 46%;
+    margin: 0 0 20px 0;
+    @media screen and (max-width: 640px) {
+      width: 100%;
+    }
+
+    &__bar {
+      height: 12px;
+      width: 100%;
+      background: $lightGray;
+      overflow: hidden;
+    }
+
+    &__amount {
+      height: 12px;
+      background: $yellow;
+      display: block;
+      transition: all 1s ease;
+    }
+
+    & .animate {
+      margin-left: -100%;
+    }
+
+    & .animated {
+      margin-left: 0;
+    }
+
+    & h4 {
+      margin: 5px 0 0 0;
+    }
+  }
+}
+
+}

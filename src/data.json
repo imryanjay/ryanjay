@@ -1,0 +1,64 @@
+{
+  "intro": {
+    "title": "Hello.  I'm Ryan Jay.",
+    "caption": "Front-end web developer & designer located in Orlando, Florida specializing in clean, modern and easy to use design built as lightweight as possible."
+  },
+  "bio": {
+    "title": "Who I am",
+    "text": "<p>Lorem ipsum dolor sit amet, at probo instructior sed, mel te mollis alterum definiebas. Ius sale corpora postulant ei, nemore aliquando eu eum, vix wisi dignissim reprimique ex. No iusto suscipiantur his. Sit meis aperiri constituto no. Erat nominavi philosophia sed id, pri primis expetendis temporibus no.</p><p>Vero tempor assueverit vis eu. Offendit cotidieque per ei. Hinc corpora repudiandae ea his. Mutat propriae adipisci ea vel, ex reque sanctus duo, vis enim inimicus percipitur ad.</p><p>At denique voluptaria rationibus eum, denique torquatos no sit, quem oblique iudicabit mel eu. Te mei minim vidisse. Per meis viris ex, mundi noster copiosae eos eu, at quis eius malorum pri. Eum ad dolorum adolescens. Ex mea erat fabulas, vide tempor delectus no mea, nobis labore duo no. Eam in explicari referrentur.</p>",
+    "image": "http://www.backstageol.com/wp-content/uploads/2014/09/Tom-Hanks-Big.jpg"
+  },
+  "skills": {
+    "title": "Skill Set",
+    "skills": [
+      {
+        "title": "CSS3 / SCSS",
+        "amount": 90
+      },
+      {
+        "title": "HTML",
+        "amount": 90
+      },
+      {
+        "title": "Javascript",
+        "amount": 75
+      },
+      {
+        "title": "Angular JS",
+        "amount": 60
+      },
+      {
+        "title": "PHP",
+        "amount": 45
+      },
+      {
+        "title": "React JS",
+        "amount": 60
+      },
+      {
+        "title": "Adobe Photoshop",
+        "amount": 80
+      },
+      {
+        "title": "Adobe Illustrator",
+        "amount": 70
+      },
+      {
+        "title": "Adobe XD",
+        "amount": 85
+      },
+      {
+        "title": "Sketch",
+        "amount": 85
+      },
+      {
+        "title": "GitHub",
+        "amount": 65
+      },
+      {
+        "title": "Cooking",
+        "amount": 55
+      }
+    ]
+  }
+}
