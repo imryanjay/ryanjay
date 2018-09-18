@@ -60,5 +60,89 @@
         "amount": 55
       }
     ]
+  },
+  "work": {
+    "title": "Work",
+    "jobs": [
+      {
+        "date": "January 2009 - Present",
+        "website": "made by ryan jay",
+        "url": "http://www.ryanjay.com",
+        "title": "Front-End Developer / Designer  & Owner"
+      },
+      {
+        "date": "May 2016 - Present",
+        "website": "greenback",
+        "url": "http://www.getgreenback.com",
+        "title": "Front-End Developer & Designer"
+      },
+      {
+        "date": "August 2013 - May 2016",
+        "website": "Petaluma Hills Brewing Company",
+        "url": "#",
+        "title": "Front-End Developer / Desiner & Asst. Brewer"
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "education": [
+      {
+        "source": "TreeHouse Courses",
+        "classes": [
+          {
+            "class": "Object-Oriented JavaScript (2015)"
+          },
+          {
+            "class": "WordPress Themes"
+          },
+          {
+            "class": "Managing Content in WordPress"
+          },
+          {
+            "class": "Introduction to PHP for WordPress"
+          },
+          {
+            "class": "Sass and BEM"
+          },
+          {
+            "class": "Debugging, Best Practices, and Production"
+          }
+        ]
+      },
+      {
+        "source": "Frontend Master Courses",
+        "classes": [
+          {
+            "class": "Complete Intro to React, v3 (feat. Redux, Router & Flow)"
+          },
+          {
+            "class": "Complete Intro to React v2 (feat. Router v4 and Redux)"
+          },
+          {
+            "class": "Webpack 2 Deep Dive"
+          },
+          {
+            "class": "ES6: The Right Parts"
+          },
+          {
+            "class": "Component-Based Architecture in AngularJS 1.x and ES6"
+          }
+        ]
+      },
+      {
+        "source": "Academy of Art Univeristy",
+        "classes": [
+          {
+            "class": "Various photography cources"
+          }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Need a website or a contractor?",
+    "email": "work@madebyryanjay.com",
+    "buttonTitle": "Let's Work Together"
   }
 }

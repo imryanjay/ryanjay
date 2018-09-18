@@ -1,7 +1,7 @@
 require('./scss/app.scss');
 import React from 'react';
 import jsonData from 'data.json';
-import {Main, Bio, Skills} from './components';
+import {Main, Bio, Skills, WorkEducation, Contact} from './components';
 
 class App extends React.PureComponent {
   constructor(props) {
@@ -19,6 +19,13 @@ class App extends React.PureComponent {
       skills: {
         title: jsonData.skills.title,
         skills: jsonData.skills.skills
+      },
+      work: jsonData.work,
+      education: jsonData.education,
+      contact: {
+        title: jsonData.contact.title,
+        email: jsonData.contact.email,
+        buttonTitle: jsonData.contact.buttonTitle
       }
     }
   }
@@ -32,7 +39,15 @@ class App extends React.PureComponent {
         <div className="breaker"></div>
         <Skills title={this.state.skills.title} skills={this.state.skills.skills}/>
         <div className="breaker"></div>
+        <WorkEducation work={this.state.work} education={this.state.education} />
       </div>
+      <div className="bottom_angle"></div>
+      <div className="angled_spacer"></div>
+      <div className="top_angle"></div>
+      <div className="content">
+        <Contact title={this.state.contact.title} email={this.state.contact.email} buttonTitle={this.state.contact.buttonTitle}/>
+      </div>
+      <div className="footer">made by ryan jay</div>
     </div>);
   }
 }

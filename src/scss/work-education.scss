@@ -1,0 +1,85 @@
+.work-education {
+  display: flex;
+  justify-content: space-between;
+  @media screen and (max-width: 640px) {
+    flex-direction: column;
+  }
+
+  & .work,
+  .education {
+    width: 46%;
+    @media screen and (max-width: 640px) {
+      width: 100%;
+    }
+
+    & h2 {
+      color: $red;
+      margin: 0 0 40px;
+      @media screen and (max-width: 640px) {
+        margin: 0 0 20px;
+      }
+    }
+  }
+
+  & .work__job {
+    position: relative;
+    margin: 0 0 40px;
+    @media screen and (max-width: 640px) {
+      margin: 0 0 20px;
+    }
+
+    & .job__date {
+      margin: 0 0 20px;
+      @media screen and (max-width: 640px) {
+        margin: 0 0 10px;
+      }
+    }
+
+    & a {
+      color: $gray;
+      text-decoration: none;
+
+      &:hover {
+        color: $yellow;
+      }
+    }
+
+    & .job__breaker {
+      position: relative;
+      height: 1px;
+      width: 100%;
+      background: $green;
+      margin: 20px auto 0;
+      @media screen and (max-width: 640px) {
+        width: 50%;
+      }
+    }
+  }
+
+  .education__source {
+    margin: 0 0 40px 0;
+    @media screen and (max-width: 640px) {
+      margin: 0 0 20px 0;
+    }
+
+    & .classes {
+      font-size: 14px;
+      list-style: none;
+      margin: 10px 0 0 0;
+      padding: 0;
+      @media screen and (max-width: 640px) {
+        font-size: 12px;
+      }
+
+      & li {
+        margin: 0 0 0 10px;
+        padding: 3px 0;
+
+        &:before {
+          content: '-';
+          margin: 0 10px 0 0;
+        }
+      }
+    }
+  }
+}

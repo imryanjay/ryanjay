@@ -15,11 +15,22 @@ html {
   color: $black;
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(-140deg, #2c7dbc 15%, #7cccc5 70%);
+  background-image: linear-gradient(-140deg, rgba(44,125,188,0.8) 15%, rgba(124,204,197,0.8) 70%), url('https://wallpapertag.com/wallpaper/full/4/4/5/270948-large-background-pictures-1920x1200.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.footer {
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  background: $black;
+  width: 100%;
+  color: $gray;
+  text-align: center;
+  letter-spacing: 3px;
 }
 
 h1 {
@@ -80,11 +91,30 @@ h4 {
   pointer-events: none;
 }
 
+/* Bottom Angle */
+.bottom_angle {
+  width: 0;
+  height: 0;
+  border-color: transparent $white;
+  border-style: solid solid solid dashed;
+  border-width: 0 0 400px 0;
+  border-left-width: 100vw;
+  border-bottom-width: 10vh;
+  pointer-events: none;
+}
+
+/* Angled Spacer */
+.angled_spacer {
+  height: 20vh;
+  @media screen and (max-width: 640px) {
+    height: 10vh;
+  }
+}
+
 /* Content */
 .content {
   position: relative;
-  height: 2500px;
-  padding: 10vh 0 0 0;
+  padding: 10vh 0;
   background: $white;
 }
 

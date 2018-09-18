@@ -1,0 +1,29 @@
+.contact {
+  & h2 {
+    margin: 0 0 40px;
+    text-align: center;
+    @media screen and (max-width: 640px) {
+      margin: 0 0 20px 0;
+    }
+  }
+
+  &__button {
+    position: relative;
+    margin: 0 auto;
+    width: 200px;
+    height: 55px;
+    line-height: 55px;
+    background: $red;
+    color: $white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    cursor: pointer;
+
+    &:hover {
+      background: $yellow;
+      transition: all 0.5s ease;
+    }
+  }
+}
