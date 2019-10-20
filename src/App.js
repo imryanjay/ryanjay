@@ -42,10 +42,10 @@ const style = {
     marginTop: '30vh',
   },
   sectionTitle: {
-    fontSize: 18,
+    fontSize: 14,
     fontFamily: 'Avenir-Medium',
     marginBottom: 20,
-    letterSpacing: 2,
+    letterSpacing: 4,
     borderBottom: '1px solid #DFDFDF',
     paddingBottom: 20,
   },
@@ -133,6 +133,21 @@ const style = {
     letterSpacing: 1,
     marginTop: 10,
     padding: 0,
+  },
+  externalLink: {
+    color: '#0D2831',
+    fontFamily: 'Avenir-Medium',
+  },
+  email: {
+    textAlign: 'center',
+    color: '#0D2831',
+    fontFamily: 'Avenir-Medium',
+    fontSize: 18,
+    letterSpacing: 6,
+    textDecoration: 'none',
+    display: 'block',
+    marginLeft: 'auto',
+    marginRight: 'auto',
   }
 }
 
@@ -187,15 +202,15 @@ class App extends Component {
             <div style={style.section}>
               <div style={style.phones}>
                 <div style={Object.assign({}, style.phone, {transform: 'rotate(-3deg)',top: 60})} className="phone">
-                  <img style={style.image} src="imgs/tablecloth_menuOpen_phone.jpg" />
+                  <img style={style.image} src="imgs/tablecloth_menuOpen_phone.png" />
                   <div style={style.shadow} />
                 </div>
                 <div style={Object.assign({}, style.phone, {transform: 'rotate(2deg)'})} className="phone">
-                  <img style={style.image} src="imgs/tablecloth_dashboard_phone.jpg" />
+                  <img style={style.image} src="imgs/tablecloth_dashboard_phone.png" />
                   <div style={style.shadow} />
                 </div>
                 <div style={Object.assign({}, style.phone, {transform: 'rotate(-2deg)',top: 60})} className="phone">
-                  <img style={style.image} src="imgs/tablecloth_categories_phone.jpg" />
+                  <img style={style.image} src="imgs/tablecloth_categories_phone.png" />
                   <div style={style.shadow} />
                 </div>
               </div>
@@ -207,7 +222,7 @@ class App extends Component {
                 <img style={style.image} src="imgs/ggb_cobrand_home.jpg" />
                 <div style={style.shadow} />
               </div>
-              <div style={style.description}>greenback is nationwide savings network that gives members access to over 350,000 merchant offers and product discounts on their mobile and web devices while helping support a great cause.  I acted as the lead front-end developer and designer for the majority of the web based application.  Built upon Angular 1.5, HTML5, and SASS.</div>
+              <div style={style.description}>greenback is nationwide savings network that gives members access to over 350,000 merchant offers and product discounts on their mobile and web devices while helping support a great cause.  I acted as the lead front-end developer and designer for the majority of the web based application.  Built upon Angular 1.5, HTML5, and SASS. <br /><br /><a href="http://getgreenback.com" style={style.externalLink} target="_blank">getgreenback.com</a> | <a href="http://ocps.gogreenback.com" style={style.externalLink} target="_blank">ocps.gogreenback.com</a></div>
             </div>
 
             <div style={style.section}>
@@ -232,12 +247,24 @@ class App extends Component {
             </div>
 
             <div style={style.section}>
+              <div style={style.item}>
+                <img style={style.image} src="imgs/vertol.png" />
+                <div style={style.shadow} />
+              </div>
+              <div style={style.description}>Vertol was an experimental logo design.  The idea behind it was to make it have the look and feel of an old school NASA or Air Force flight patch.  Designed in Adobe Illustrator</div>
+            </div>
+
+            <div style={style.section}>
               <div style={style.skillWrapper}>
                 <div style={style.sectionTitle}>skill set</div>
                 <div style={style.skillContent}>
                   {this.skills}
                 </div>
               </div>
+            </div>
+
+            <div style={style.section}>
+              <a style={style.email} href="mailto:work@ryanjay.com">work@ryanjay.com</a>
             </div>
 
           </div>
